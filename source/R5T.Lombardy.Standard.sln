@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Rugia.Base", "..\..\R5T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia", "..\..\R5T.Dacia\source\R5T.Dacia\R5T.Dacia.csproj", "{6D87E445-A610-4AD0-BF52-A678C1CD065E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia.Extensions", "..\..\R5T.Dacia.Extensions\source\R5T.Dacia.Extensions\R5T.Dacia.Extensions.csproj", "{1B21822A-1C05-4ABE-930E-A1922AD38A6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,18 @@ Global
 		{6D87E445-A610-4AD0-BF52-A678C1CD065E}.Release|x64.Build.0 = Release|Any CPU
 		{6D87E445-A610-4AD0-BF52-A678C1CD065E}.Release|x86.ActiveCfg = Release|Any CPU
 		{6D87E445-A610-4AD0-BF52-A678C1CD065E}.Release|x86.Build.0 = Release|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Debug|x64.Build.0 = Debug|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Debug|x86.Build.0 = Debug|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Release|x64.ActiveCfg = Release|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Release|x64.Build.0 = Release|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Release|x86.ActiveCfg = Release|Any CPU
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +181,7 @@ Global
 		{EA415DE2-A2DF-4C74-BEE7-3CF8F11CE0A1} = {5992E3EE-BF5D-4841-80E3-10DC9C23123B}
 		{9A6CEC53-BDC3-4447-BD94-A5CB69598994} = {5992E3EE-BF5D-4841-80E3-10DC9C23123B}
 		{6D87E445-A610-4AD0-BF52-A678C1CD065E} = {5992E3EE-BF5D-4841-80E3-10DC9C23123B}
+		{1B21822A-1C05-4ABE-930E-A1922AD38A6D} = {5992E3EE-BF5D-4841-80E3-10DC9C23123B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CABC9F6C-2A08-4E4B-8109-581F0C160A93}
