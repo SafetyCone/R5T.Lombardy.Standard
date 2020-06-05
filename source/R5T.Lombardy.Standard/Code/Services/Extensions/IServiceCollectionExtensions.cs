@@ -53,7 +53,8 @@ namespace R5T.Lombardy.Standard
             IServiceAction<IFileExtensionOperator> fileExtensionOperatorAction,
             IServiceAction<IFileNameOperator> fileNameOperatorAction,
             IServiceAction<IStringlyTypedPathOperator> stringlyTypedPathOperatorAction
-            ) AddStringlyTypedPathRelatedOperatorsAction(this IServiceCollection services)
+            )
+            AddStringlyTypedPathRelatedOperatorsAction(this IServiceCollection services)
         {
             var output = (
                 directoryNameOperatorAction: ServiceAction<IDirectoryNameOperator>.New(() => services.AddSingleton<IDirectoryNameOperator, DirectoryNameOperator>()),
